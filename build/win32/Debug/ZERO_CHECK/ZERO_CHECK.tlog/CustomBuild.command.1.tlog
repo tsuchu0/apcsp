@@ -1,0 +1,10 @@
+^C:\DEV\APCSP\BUILD\CMAKEFILES\4DFC77A482F09B10AE0B6F68D99FDA2F\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/apcsp -BC:/dev/apcsp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/apcsp/build/apcsp.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

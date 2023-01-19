@@ -1,0 +1,2 @@
+C:\dev\apcsp\build\Debug\raylib.dll
+C:\dev\apcsp\build\game.dir\Debug\game.vcxproj.CopyComplete
